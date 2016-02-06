@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=AlfaSlabOne");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -192,14 +191,24 @@ body {
   background: #f9d041;
 }
 .center {
-  width: 20vw;
-  ddisplay: block;
+  width: 30vw;
+  display: block;
   margin: 0 auto;
 }
-img {
-  width: 100%;
+.center.big {
+  width: 40vw;
 }
-a {
+img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+img.small {
+  width: 20%;
+}
+a,
+h2 {
   color: #222;
   text-decoration: none;
   text-transform: uppercase;
@@ -211,10 +220,40 @@ a {
   letter-spacing: 0.05em;
   font-size: 1.25em;
 }
-small {
-  text-align: center;
-  margin-top: 1em;
-  display: block;
+h2 {
+  margin-bottom: 2em;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+ul a {
+  font-size: 0.8rem;
+}
+ul.links {
+  background: #222;
+  padding: 20px;
+  margin-top: 2em;
+}
+ul.links a {
+  color: #f9d041;
+}
+ul.links li:first-child a {
+  margin-top: 0;
+}
+ul.built li {
+  border-bottom: 1px solid #808080;
+}
+ul.built li p {
+  margin-bottom: 2em;
+}
+ul.built li:last-child {
+  border-bottom: 0;
+}
+img.banterhack {
+  width: 100%;
+  margin-top: 3rem;
 }
 
  /*# sourceMappingURL=master.css.map */
